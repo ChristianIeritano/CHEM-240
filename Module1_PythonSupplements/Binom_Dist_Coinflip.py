@@ -78,7 +78,7 @@ def simulate_coin_flip(n_flips, n_trials, simulate_fairness, plot_fairness, conf
 
     plt.draw()
     
-    return  #return total number of heads - needed for some p hacking
+    return total_heads #return total number of heads - needed for some p hacking
 
 # stuff for update the text printout within the GUI interface - thanks ChatGPT :)
 def update(val=None):
